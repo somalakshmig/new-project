@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+body {
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: "Segoe UI";
+}
+
+.headers-list {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0px -20px 0px 20px;
+    margin: 0px;
+    background: whitesmoke;
+}
+
+.headers-list h3 {
+    padding: 10px;
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: wheat;
+    color: black;
+    flex-shrink: 0;
+    flex-grow: 1;
+}
+
+h3:hover {
+    cursor: pointer;
+    font-size: 20px;
+    text-shadow: 0px 0px 10px silver;
+}
+
+.page-parameters {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0px -20px 0px 20px;
+    margin: 0px;
+    background: white;
+}
+
+.parameter-column {
+    padding: 10px;
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    color: black;
+    flex-shrink: 0;
+    flex-grow: 1;
+}
+
+.parameter-column div {
+    min-width: 230px;
+    display: flex;
+    align-items: center;
+    flex-shrink: 0;
+    flex-grow: 2;
+
+}
+
+.parameter-column div label {
+    margin: 7px;
+}
+
+.profile-section {
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 15px;
+    background-color: #ff0000;
+    color: #fff;
+}
+
+.profile-info {
+    margin: 0px;
+    display: flex;
+    justify-content: ;
+    align-items: center;
+}
+
+.profile-image {
+    width: 60px;
+    margin-right: 20px;
+    height: 60px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+}
+
+.profile-description {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.profile-menu-section {
+    width: 28%;
+    display: flex;
+    align-items: center;
+}
+
+.profile-menu-section .btn {
+    width: 100px;
+    color: #ff0000;
+    border: 1px solid white;
+    background-color: white;
+    height: 30px;
+}
+
+.profile-menu-section p {
+    margin: 8px;
+}
